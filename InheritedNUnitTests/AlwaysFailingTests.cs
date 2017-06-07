@@ -8,7 +8,7 @@ namespace InheritedNUnitTests
         [Test]
         public void AlwaysFailingTest()
         {
-            Assert.False(false, "Should fail!");
+            Assert.True(false, "Should fail!");
         }
     }
 }
